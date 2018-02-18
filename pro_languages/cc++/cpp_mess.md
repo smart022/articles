@@ -1,10 +1,22 @@
 # Frequent used STL&String func
 
+## c
+
+```c
+memset(addr,0,n)
+```
+
+
+
 ## string
 
+```c++
 std::stoi(str) // string2int ==   atoi( str.c_str())
 
-stol|stof|stod // long, float, double
+// stol| stof| stod -- long, float, double
+```
+
+
 
 ## deque
 
@@ -16,14 +28,14 @@ cot.at()
 
 cot.front()|back()// 取头尾
 
-cot.begin()|end()|rbegin()|end()// 指针
+cot.begin()|end()| rbegin()| end()// 指针
 
-Cot.push_back()|push_front()
+Cot.push_back()| push_front()
 
-Cot.insert(pos,elem)|(pos,n,elem)|(pos,beg,end)
+cot.insert(pos,elem)| (pos,n,elem)| (pos,beg,end)
 
-Cot.pop_back()|pop_front()
+cot.pop_back()| pop_front()
 
-Cot.erase(pos)|(beg,end)
+cot.erase(pos)| (beg,end)
 
-cot.size()|empty()|max_size()|resize()
+cot.size()| empty()| max_size()| resize()
